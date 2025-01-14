@@ -1,5 +1,7 @@
 from agentic_ai import ProcessingAgent
 
-a = ProcessingAgent()
-response = a.Minime("Repeat our previous song")
-print(response)
+from agentic_ai import WebsearchAgent
+
+q = WebsearchAgent()
+result = q.websearch_summarizer("bitcoin news january 2025")
+print(result)
